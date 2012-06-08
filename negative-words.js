@@ -2352,4 +2352,11 @@ var negWords = [
 'WRONGFUL',
 'WRONGFULLY',
 'WRONGLY',
+'AWFUL',
+'FUCK',
+'SUCKS',
+'HATE',
+'MISERABLE',
+'MISERY',
+'DISLIKE'
 ];

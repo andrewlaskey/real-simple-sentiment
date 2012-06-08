@@ -2364,7 +2364,14 @@ function realSimpleSentiment() {
 		'WRONGDOINGS',
 		'WRONGFUL',
 		'WRONGFULLY',
-		'WRONGLY'
+		'WRONGLY',
+		'AWFUL',
+		'FUCK',
+		'SUCKS',
+		'HATE',
+		'MISERABLE',
+		'MISERY',
+		'DISLIKE'
 		];
 		
 	this.posWords = [

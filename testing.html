@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>Sentiment Analysis Test Example</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script src="real-simple-sentiment.js"></script>
+		<script>
+		$(document).ready(function () {
+			$("#btn").click(function() {
+				var analyze = new realSimpleSentiment();
+				
+				var test = $("#testText").val();
+				
+				var result = analyze.analyzeText(test);
+					
+				$("#output").html(result);
+				
+			});
+		});
+		</script>
+	</head>
+	<body>    
+		<form>
+ 				<label>Enter test text:</label>
+ 				<textarea id="testText" name="testText"/></textarea>
+
+				<input type="button" id="btn" value="Analyze" />
+		</form>
+
+ 		<p>Output: <span id="output">+/-</span></p>
+	</body>
+</html>
